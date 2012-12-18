@@ -1,0 +1,9 @@
+{
+   "content_scripts": [ {
+      "css":["DoubanCSS.css"],
+      "matches":["*://*.douban.com/*"]
+   } ],
+   "name": "DoubanCSS",
+   "version": "0.42",
+   "manifest_version": 2
+}
